@@ -1,0 +1,85 @@
+/* Main page */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Restaurant heading */
+h1 {
+    color: hotpink;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+/* Our Menu */
+h2 {
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+/* Section headings */
+h3 {
+    margin: 15px 0 0 0;
+    color: hotpink;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Mark inside headings */
+mark {
+    background-color: transparent;
+    color: hotpink;
+    font-weight: bold;
+}
+
+/* All menu lists */
+ol,
+ul {
+    margin: 0;
+    padding: 12px 35px;
+    line-height: 2;
+}
+
+/* Starters */
+h3:nth-of-type(1) + ol {
+    background-color: teal;
+}
+
+/* Main Course */
+h3:nth-of-type(2) + ul {
+    background-color: #51452f;
+}
+
+/* Chinese Food */
+h3:nth-of-type(3) + ul {
+    background-color: #4b1550;
+}
+
+/* Desserts */
+h3:nth-of-type(4) + ul {
+    background-color: darkgreen;
+}
+
+/* Drinks */
+h3:nth-of-type(5) + ol {
+    background-color: #006666;
+}
+
+/* Menu items */
+li {
+    color: white;
+    font-size: 14px;
+}
+
+/* Hover effect */
+li:hover {
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
